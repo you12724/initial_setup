@@ -4,8 +4,8 @@ defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 12
 
 # iterm2の設定
-defaults import com.googlecode.iterm2 ./iterm2.plist
+defaults import com.googlecode.iterm2 ./plist/iterm2.plist
 # trackpadの設定
-defaults import com.apple.AppleMultitouchTrackpad ./trackpad.plist
+defaults import com.apple.AppleMultitouchTrackpad ./plist/trackpad.plist
 # dockの設定
-defaults import com.apple.dock ./dock.plist
+defaults import com.apple.dock ./plist/dock.plist
