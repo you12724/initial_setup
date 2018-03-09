@@ -4,6 +4,7 @@
 # Install web apps.
 #
 echo " ----- Install web apps ------"
+brew tap caskroom/versions
 brew cask install java8
 brew cask install android-studio
 brew cask install atom
