@@ -35,6 +35,16 @@ echo " ------------ END ------------"
 #
 # Install mysql
 #
-echo " ------------ Git ------------"
+echo " ------------ Mysql ----------"
 brew install mysql
+echo " ------------ END ------------"
+
+#
+# Install node
+#
+echo " ------------ Node -----------"
+brew install nvm
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
+echo '. "/usr/local/opt/nvm/nvm.sh"' >> ~/.bash_profile
+nvm install node
 echo " ------------ END ------------"
