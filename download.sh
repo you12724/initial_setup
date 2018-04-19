@@ -48,3 +48,24 @@ echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
 echo '. "/usr/local/opt/nvm/nvm.sh"' >> ~/.bash_profile
 nvm install node
 echo " ------------ END ------------"
+
+#
+# Install golang
+#
+echo " ---------- Golang -----------"
+brew install go
+echo 'export PATH=$PATH:/usr/local/opt/go/libexec/bin' >> ~/.bash_profile
+mkdir -p ~/Developments/golang/{src,bin,pkg}
+echo 'export GOPATH="$HOME/Developments/golang"' >> ~/.bash_profile
+go get -u golang.org/x/tools/cmd/goimports
+go get -u golang.org/x/tools/cmd/gorename
+go get -u github.com/sqs/goreturns
+go get -u github.com/nsf/gocode
+go get -u github.com/alecthomas/gometalinter
+go get -u github.com/zmb3/gogetdoc
+go get -u github.com/zmb3/goaddimport
+go get -u github.com/rogpeppe/godef
+go get -u golang.org/x/tools/cmd/guru
+go get -u github.com/fatih/gomodifytags
+go get -u github.com/tpng/gopkgs
+echo " ------------ END ------------"
