@@ -9,6 +9,7 @@ brew cask install java8
 brew cask install android-studio
 brew cask install atom
 apm install --packages-file atom-packages.txt
+apm update
 brew cask install docker
 brew cask install google-chrome
 brew cask install iterm2

@@ -54,7 +54,7 @@ echo " ------------ END ------------"
 #
 echo " ---------- Golang -----------"
 brew install go
-echo 'export PATH=$PATH:/usr/local/opt/go/libexec/bin' >> ~/.bash_profile
+echo 'export PATH=$PATH:/usr/local/opt/go/libexec/bin:$HOME/go/bin' >> ~/.bash_profile
 mkdir -p ~/Developments/golang/{src,bin,pkg}
 echo 'export GOPATH="$HOME/Developments/golang"' >> ~/.bash_profile
 go get -u golang.org/x/tools/cmd/goimports
