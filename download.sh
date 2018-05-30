@@ -69,3 +69,16 @@ go get -u golang.org/x/tools/cmd/guru
 go get -u github.com/fatih/gomodifytags
 go get -u github.com/tpng/gopkgs
 echo " ------------ END ------------"
+
+#
+# Install python
+#
+echo " ------------ Node -----------"
+brew install pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+pyenv install 3.6.5
+pyenv install 2.7.15
+pyenv global 2.7.5 3.6.5
+echo " ------------ END ------------"
