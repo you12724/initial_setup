@@ -73,7 +73,7 @@ echo " ------------ END ------------"
 #
 # Install python
 #
-echo " ------------ Node -----------"
+echo " ------------ Python -----------"
 brew install pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile

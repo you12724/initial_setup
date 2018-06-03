@@ -21,3 +21,7 @@ brew cask install vivaldi
 brew cask install postman
 brew cask install slate
 brew cask install flux
+brew cask install sourcetree
+brew cask install 1password
+brew cask install insomniax
+brew cask install burp-suite
