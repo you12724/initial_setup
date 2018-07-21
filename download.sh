@@ -87,5 +87,5 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 pyenv install 3.6.5
 pyenv install 2.7.15
-pyenv global 2.7.5 3.6.5
+pyenv global 3.6.5 2.7.15
 echo " ------------ END ------------"
