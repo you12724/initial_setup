@@ -17,7 +17,6 @@ brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install mysqlworkbench
 brew cask install bettertouchtool
-brew cask install vivaldi
 brew cask install postman
 brew cask install slate
 brew cask install flux
@@ -25,3 +24,6 @@ brew cask install sourcetree
 brew cask install 1password
 brew cask install insomniax
 brew cask install burp-suite
+brew cask install discord
+brew cask install ganache
+brew cask install intellij-idea

@@ -50,6 +50,13 @@ nvm install node
 echo " ------------ END ------------"
 
 #
+# Install yarn
+#
+echo " ------------ Yarn -----------"
+brew install yarn
+echo " ------------ END ------------"
+
+#
 # Install golang
 #
 echo " ---------- Golang -----------"
